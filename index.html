@@ -9,8 +9,8 @@
 <meta name="robots" content="noindex">
 <title>Visite 3D — appartement réel, Berlin · démonstration</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2314130f'/%3E%3Cpath d='M8 23V13l8-5 8 5v10h-5v-6h-6v6z' fill='%23d8c29a'/%3E%3C/svg%3E">
-  <script type="module" crossorigin src="./assets/index-Coive3bW.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BZouuUPO.css">
+  <script type="module" crossorigin src="./assets/index-CO2lyPXd.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CF7MQ36k.css">
 </head>
 <body>
 <div id="views"><canvas id="cvGs" aria-label="Vue 3D de l'appartement"></canvas></div>
@@ -32,6 +32,7 @@
 <header id="top" class="ui">
   <div class="brand"><span class="mark" aria-hidden="true"></span><span><b>Berlin</b> · appartement réel</span></div>
   <div id="where" class="where" aria-live="polite"></div>
+  <button id="bQuality" class="icon q" title="Qualité d'affichage" aria-label="Qualité d'affichage">HD</button>
   <button id="bInfo" class="icon" title="À propos de cette démonstration" aria-label="À propos">i</button>
 </header>
 
@@ -83,6 +84,13 @@
   <p class="kb">Cliquer dans l'image, puis <kbd>Z</kbd><kbd>Q</kbd><kbd>S</kbd><kbd>D</kbd> ou <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> et la souris ·
   <kbd>←</kbd><kbd>→</kbd> tourner · <kbd>Maj</kbd> plus vite · <kbd>1</kbd>–<kbd>6</kbd> pièces · <kbd>M</kbd> plan · <kbd>P</kbd> photos · <kbd>R</kbd> départ · <kbd>Échap</kbd> libère la souris</p>
   <p class="tc">Pouce gauche : avancer · glisser ailleurs : regarder autour · « Pièces » ou « Plan » : s'y rendre à pied.</p>
+</section>
+
+<!-- qualité d'affichage (téléphone) -->
+<section id="quality" class="sheet" hidden aria-label="Qualité d'affichage">
+  <header><h2>Qualité d'affichage</h2><button class="close" data-close="quality" aria-label="Fermer">×</button></header>
+  <div id="qList"></div>
+  <p class="fine">Le choix est mémorisé sur ce téléphone. Changer de réglage recharge la visite.</p>
 </section>
 
 <div id="hint" class="ui-hint" hidden></div>
