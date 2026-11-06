@@ -8,9 +8,9 @@
 <meta name="description" content="Visite 3D libre d'un appartement réel à Berlin, reconstruit à partir de ses photographies — démonstration.">
 <meta name="robots" content="noindex">
 <title>Visite 3D — appartement réel, Berlin · démonstration</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2314130f'/%3E%3Cpath d='M8 23V13l8-5 8 5v10h-5v-6h-6v6z' fill='%23d8c29a'/%3E%3C/svg%3E">
-  <script type="module" crossorigin src="./assets/index-CO2lyPXd.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-CF7MQ36k.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2314130f'/%3E%3Cpath d='M8 23V13l8-5 8 5v10h-5v-6h-6v6z' fill='%23d8c29a'/%3E%3C/svg%3E">
+  <script type="module" crossorigin src="./assets/index-GK-Wlbih.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CZjaIXqB.css">
 </head>
 <body>
 <div id="views"><canvas id="cvGs" aria-label="Vue 3D de l'appartement"></canvas></div>
@@ -24,6 +24,7 @@
     <p class="sub">Un appartement réel, reconstruit en 3D à partir de ses photographies.<br>Promenez-vous librement d'une pièce à l'autre.</p>
     <div class="meter"><div id="bar"></div></div>
     <p id="ltext">Préparation…</p>
+    <p class="safe"><a href="./?reset">Problème d'affichage ? Repartir en qualité automatique</a> · <a href="./?q=eco">Mode économique</a></p>
     <p class="credit">Données : Zip-NeRF « Berlin » — Barron et al., Google, 2023 — licence CC BY 4.0</p>
   </div>
 </section>
@@ -93,8 +94,9 @@
   <p class="fine">Le choix est mémorisé sur ce téléphone. Changer de réglage recharge la visite.</p>
 </section>
 
+<div id="veil" hidden><span>Pièce suivante…</span></div>
 <div id="hint" class="ui-hint" hidden></div>
 <div id="toast" hidden></div>
-<pre id="diag" hidden></pre>
+<pre id="diag" hidden></pre>
 </body>
 </html>
